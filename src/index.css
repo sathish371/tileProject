@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.room-preview {
+    position: relative;
+  }
+  
+  .floor-area {
+    width: 100%; /* Adjust as needed for floor coverage */
+    height: 33%;  /* Set floor height based on room image proportions */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8; /* To blend it with the room */
+  }
+  
